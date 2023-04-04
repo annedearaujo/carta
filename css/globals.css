@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Epilogue:400");
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

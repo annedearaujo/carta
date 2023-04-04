@@ -1,0 +1,82 @@
+/* screen - cartinha */
+
+.cartinha {
+  align-items: center;
+  background-color: #ffffff;
+  border: 3px solid;
+  border-color: #c98d5b;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  justify-content: center;
+  min-width: 375px;
+  padding: 34px 29px;
+  position: relative;
+}
+
+.cartinha .localdata {
+  align-items: flex-start;
+  background-color: var(--snuff);
+  display: flex;
+  gap: 10px;
+  padding: 9px 20px;
+  position: relative;
+  width: fit-content;
+}
+
+.cartinha .texto {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.cartinha .saudacao {
+  align-items: flex-start;
+  background-color: var(--snuff);
+  display: flex;
+  gap: 10px;
+  padding: 10px 12px;
+  position: relative;
+  width: fit-content;
+}
+
+.cartinha .mensagem {
+  align-items: flex-start;
+  background-color: var(--snuff);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 11px;
+  position: relative;
+  width: fit-content;
+}
+
+.cartinha .textomensagem {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: 294px;
+}
+
+.cartinha .despedida {
+  align-items: flex-start;
+  background-color: var(--snuff);
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.cartinha .assinatura {
+  align-items: flex-start;
+  background-color: var(--snuff);
+  display: flex;
+  gap: 10px;
+  padding: 8px 5px;
+  position: relative;
+  width: fit-content;
+}
